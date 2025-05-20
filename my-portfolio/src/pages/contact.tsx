@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 const Contact: React.FC = () => {
     const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: '',
+        name: 'Ryon Knipple',
+        email: 'r.knippl89@gmail.com',
+        message: 'contact me',
     });
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
